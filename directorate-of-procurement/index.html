@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101C17">
+  <meta name="description" content="Explore the Directorate of Procurement: its mandate, organizational structure and core responsibilities.">
+  <title>Directorate of Procurement · The Command Briefing</title>
+  <link rel="icon" href="assets/icons/app.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="identity"><span class="identity-mark" aria-hidden="true">DP<span></span></span><div><span class="eyebrow">Nigerian Army</span><p>Directorate of Procurement</p></div></div>
+    <div class="edition"><span class="status-dot"></span> THE COMMAND BRIEFING <span class="edition-divider">/</span> INFORMATION KIOSK</div>
+    <button type="button" class="home-button" data-go="overview" aria-label="Home — Overview"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v12h5v-7h4v7h5V9"/></svg><span>Home</span></button>
+  </header>
+  <div class="section-bar"><span class="section-label">EXPLORE THE DIRECTORATE</span><nav aria-label="Main sections"><button type="button" data-go="overview" aria-current="page"><span>01</span> Overview</button><button type="button" data-go="structure"><span>02</span> Organizational structure</button><button type="button" data-go="responsibilities"><span>03</span> Core responsibilities</button></nav></div>
+  <main id="main" tabindex="-1">
+    <section id="overview" class="screen" aria-labelledby="overview-title">
+      <div class="overview-grid">
+        <div class="hero-copy"><p class="eyebrow brass"><span class="short-rule"></span> OFFICE OF THE COAS</p><h1 id="overview-title" tabindex="-1">Directorate of<br><em>Procurement.</em></h1><p class="hero-intro">Administering procurement.<br>Upholding procedure.</p><p class="hero-description" id="administration"></p><div class="hero-actions"><button type="button" class="button primary" data-go="responsibilities">Explore our responsibilities <span aria-hidden="true">↗</span></button><button type="button" class="text-button" data-go="structure">View the structure <span aria-hidden="true">→</span></button></div><div class="hero-foot"><span class="tiny-cross" aria-hidden="true">+</span><span>Planning. Coordination. Accountability.</span></div></div>
+        <aside class="briefing-paper" aria-labelledby="brief-title"><div class="paper-top"><span class="eyebrow">DIRECTORATE BRIEF</span><span class="paper-ref">01 / OVERVIEW</span></div><div class="established"><span class="eyebrow">ESTABLISHED</span><p>06 <span>August</span> 2015</p></div><h2 id="brief-title">A clear mandate.<br> A defined purpose.</h2><dl id="overview-facts"></dl><div class="paper-bottom"><span>DIRECTOR OF PROCUREMENT</span><strong>D Proc</strong></div></aside>
+      </div>
+    </section>
+    <section id="structure" class="screen" aria-labelledby="structure-title" hidden>
+      <div class="section-heading"><div><p class="eyebrow brass">02 / ORGANIZATIONAL STRUCTURE</p><h1 id="structure-title" tabindex="-1">One directorate.<br class="mobile-only"> A defined structure.</h1></div><p>Select a position or cell<br>to explore its place in the Directorate.</p></div>
+      <div class="structure-layout"><div class="org-chart" role="group" aria-label="Directorate organization chart"><div class="director-node"><button type="button" class="org-node selected" data-cell="director" aria-pressed="true"><span class="eyebrow">HEAD OF DIRECTORATE</span><strong>Director of Procurement</strong><span>D Proc <span aria-hidden="true">↗</span></span></button></div><div class="main-branches"><div class="group-label"><span>MAIN CELLS</span><span>Headed by Deputy Directors</span></div><div class="org-row" id="main-cells"></div></div><div class="support-group"><div class="group-label"><span>SUPPORTING CELLS</span><span>Overseen by Assistant Directors</span></div><div class="org-row" id="support-cells"></div></div></div><aside class="cell-detail" aria-labelledby="cell-name" aria-live="polite" aria-atomic="true"><span class="eyebrow" id="cell-category"></span><span class="detail-rule"></span><h2 id="cell-name">Director of Procurement</h2><p class="cell-role" id="cell-role"></p><p id="cell-description"></p><div class="detail-bottom"><span class="tiny-cross" aria-hidden="true">+</span> DIRECTORATE OF PROCUREMENT</div></aside></div>
+    </section>
+    <section id="responsibilities" class="screen" aria-labelledby="responsibilities-title" hidden>
+      <div class="section-heading"><div><p class="eyebrow brass">03 / CORE RESPONSIBILITIES</p><h1 id="responsibilities-title" tabindex="-1">The mandate in action.</h1></div><p>Eleven responsibilities.<br>Explore the Directorate’s scope of work.</p></div>
+      <div class="responsibilities-layout"><div class="responsibility-menu"><div class="list-caption"><span>SELECT A RESPONSIBILITY</span><span id="list-range"></span></div><div id="responsibility-list"></div><div class="list-pagination"><button type="button" class="small-button" id="list-prev" aria-label="Previous responsibility list page">← <span>Previous</span></button><span id="list-page" aria-live="polite"></span><button type="button" class="small-button" id="list-next" aria-label="Next responsibility list page"><span>Next</span> →</button></div></div><article class="responsibility-detail" aria-labelledby="responsibility-title"><div class="responsibility-top"><span class="eyebrow">DIRECTORATE MANDATE</span><span id="responsibility-count"></span></div><div id="responsibility-content" aria-live="polite" aria-atomic="true"><span class="large-number" id="responsibility-number" aria-hidden="true"></span><h2 id="responsibility-title">Procurement planning</h2><p id="responsibility-text"></p></div><div class="responsibility-bottom"><span>CORE RESPONSIBILITY</span><div><button type="button" class="square-button" id="responsibility-prev" aria-label="Previous responsibility">←</button><button type="button" class="square-button" id="responsibility-next" aria-label="Next responsibility">→</button></div></div></article></div>
+    </section>
+  </main>
+  <footer><div><span class="footer-mark" aria-hidden="true"></span> DIRECTORATE OF PROCUREMENT <span class="footer-separator">/</span> NIGERIAN ARMY</div><button type="button" id="back-button" class="back-button" hidden>← Back</button><span class="footer-index" id="footer-index">01 — 03</span></footer>
+  <noscript><p class="noscript">Enable JavaScript in Microsoft Edge to explore the Directorate’s content.</p></noscript>
+</body>
+</html>

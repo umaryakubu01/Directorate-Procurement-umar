@@ -1,0 +1,201 @@
+{
+  "results": [
+    {
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "section": "overview",
+      "layout": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "section": "structure",
+      "layout": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "section": "responsibilities",
+      "layout": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "section": "overview",
+      "layout": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "height": 768,
+        "scrollHeight": 768,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "section": "structure",
+      "layout": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "height": 768,
+        "scrollHeight": 768,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "section": "responsibilities",
+      "layout": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "height": 768,
+        "scrollHeight": 768,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "section": "overview",
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "height": 768,
+        "scrollHeight": 795,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "section": "structure",
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "height": 768,
+        "scrollHeight": 778,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "section": "responsibilities",
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "height": 768,
+        "scrollHeight": 777,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "section": "overview",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1863,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "section": "structure",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1634,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "section": "responsibilities",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1653,
+        "fonts": true,
+        "shortButtons": []
+      },
+      "axeViolations": 0
+    }
+  ],
+  "interactions": "All 7 organization positions and all 11 responsibilities; list paging; detail previous/next; boundaries; Home and Back; Enter/Space/Tab navigation; heading focus; reduced motion",
+  "errors": [],
+  "remote": [],
+  "offline": true,
+  "browser": "150.0.7871.125"
+}
